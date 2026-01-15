@@ -1,0 +1,13 @@
+<Solution>
+  <Folder Name="/src/" />
+  <Folder Name="/src/backend/">
+    <Project Path="src/backend/SecureWatch.Api/SecureWatch.Api.csproj" />
+    <Project Path="src/backend/SecureWatch.Application/SecureWatch.Application.csproj" />
+    <Project Path="src/backend/SecureWatch.Domain/SecureWatch.Domain.csproj" />
+    <Project Path="src/backend/SecureWatch.Infrastructure/SecureWatch.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/tests/" />
+  <Folder Name="/tests/backend/">
+    <Project Path="tests/backend/SecureWatch.Tests/SecureWatch.Tests.csproj" />
+  </Folder>
+</Solution>
