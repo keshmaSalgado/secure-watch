@@ -9,3 +9,4 @@ All notable changes and architectural iterations are documented below.
 - **2026-01-16 17:37:48** `[0004]`: refactor(engine): modularize explainable risk scoring factors [iter #0004]
 - **2026-01-16 18:59:25** `[0005]`: test(engine): verify 0-100 risk score normalization on compound threats [iter #0005]
 - **2026-01-16 21:15:32** `[0006]`: perf(engine): optimize multi-event correlation window query [iter #0006]
+- **2026-01-17 11:52:53** `[0007]`: feat(telemetry): add batch ingestion endpoint with payload schema validation [iter #0007]
