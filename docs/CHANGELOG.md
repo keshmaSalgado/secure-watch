@@ -11,3 +11,4 @@ All notable changes and architectural iterations are documented below.
 - **2026-01-16 21:15:32** `[0006]`: perf(engine): optimize multi-event correlation window query [iter #0006]
 - **2026-01-17 11:52:53** `[0007]`: feat(telemetry): add batch ingestion endpoint with payload schema validation [iter #0007]
 - **2026-01-17 12:25:14** `[0008]`: fix(telemetry): sanitize raw user agent strings before persistence [iter #0008]
+- **2026-01-17 14:40:59** `[0009]`: perf(telemetry): index security event timestamp and severity level columns [iter #0009]
