@@ -13,3 +13,4 @@ All notable changes and architectural iterations are documented below.
 - **2026-01-17 12:25:14** `[0008]`: fix(telemetry): sanitize raw user agent strings before persistence [iter #0008]
 - **2026-01-17 14:40:59** `[0009]`: perf(telemetry): index security event timestamp and severity level columns [iter #0009]
 - **2026-01-17 19:34:08** `[0010]`: refactor(telemetry): decouple ingestion validator from database write pipeline [iter #0010]
+- **2026-01-18 16:28:25** `[0011]`: test(telemetry): add boundary tests for metadata JSON serialization [iter #0011]
