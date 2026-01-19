@@ -16,3 +16,4 @@ All notable changes and architectural iterations are documented below.
 - **2026-01-18 16:28:25** `[0011]`: test(telemetry): add boundary tests for metadata JSON serialization [iter #0011]
 - **2026-01-18 20:25:57** `[0012]`: feat(auth): enforce refresh token family revocation on token replay [iter #0012]
 - **2026-01-19 09:05:48** `[0013]`: fix(auth): correct account lockout duration calculation for failed attempts [iter #0013]
+- **2026-01-19 11:47:58** `[0014]`: refactor(identity): streamline custom claims principal factory [iter #0014]
