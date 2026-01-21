@@ -22,3 +22,4 @@ All notable changes and architectural iterations are documented below.
 - **2026-01-20 16:26:00** `[0017]`: feat(incident): add timeline audit entry when severity or analyst changes [iter #0017]
 - **2026-01-20 18:31:30** `[0018]`: fix(incident): prevent invalid status transition from Closed to Investigating [iter #0018]
 - **2026-01-20 21:47:09** `[0019]`: refactor(incident): optimize related event correlation lookup in IncidentService [iter #0019]
+- **2026-01-21 09:40:58** `[0020]`: feat(incident): add automated SOC triage playbook recommendations [iter #0020]
