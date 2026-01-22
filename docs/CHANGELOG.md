@@ -26,3 +26,4 @@ All notable changes and architectural iterations are documented below.
 - **2026-01-21 20:38:05** `[0021]`: feat(intel): integrate fallback provider for offline IP reputation lookup [iter #0021]
 - **2026-01-22 10:31:58** `[0022]`: perf(cache): implement sliding expiration for IP threat intelligence scores [iter #0022]
 - **2026-01-22 12:08:29** `[0023]`: fix(intel): validate CIDR block masks for private subnet detection [iter #0023]
+- **2026-01-22 13:49:28** `[0024]`: feat(ai): train Isolation Forest anomaly detector on synthetic normal distributions [iter #0024]
