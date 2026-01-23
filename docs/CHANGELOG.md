@@ -30,3 +30,4 @@ All notable changes and architectural iterations are documented below.
 - **2026-01-22 14:26:37** `[0025]`: feat(copilot): implement prompt context builder with sanitized event summaries [iter #0025]
 - **2026-01-22 15:47:11** `[0026]`: refactor(ai): serialize anomaly features into structured NumPy arrays [iter #0026]
 - **2026-01-22 18:57:10** `[0027]`: test(ai): verify FastAPI /detect-anomalies response schema and status [iter #0027]
+- **2026-01-23 09:20:02** `[0028]`: feat(ai): add MITRE ATT&CK tactic classification to incident analyzer [iter #0028]
