@@ -34,3 +34,4 @@ All notable changes and architectural iterations are documented below.
 - **2026-01-23 10:50:02** `[0029]`: feat(realtime): implement SignalR group subscription for incident feeds [iter #0029]
 - **2026-01-23 11:30:41** `[0030]`: fix(realtime): handle automatic reconnect on WebSocket interruption [iter #0030]
 - **2026-01-24 12:57:09** `[0031]`: refactor(realtime): extract JWT bearer claims in SecurityHub OnConnectedAsync [iter #0031]
+- **2026-01-24 18:42:37** `[0032]`: perf(realtime): throttle dashboard KPI broadcasts to sub-second intervals [iter #0032]
