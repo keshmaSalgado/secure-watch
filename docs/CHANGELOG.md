@@ -36,3 +36,4 @@ All notable changes and architectural iterations are documented below.
 - **2026-01-24 12:57:09** `[0031]`: refactor(realtime): extract JWT bearer claims in SecurityHub OnConnectedAsync [iter #0031]
 - **2026-01-24 18:42:37** `[0032]`: perf(realtime): throttle dashboard KPI broadcasts to sub-second intervals [iter #0032]
 - **2026-01-25 14:35:00** `[0033]`: feat(dashboard): add executive KPI metrics aggregator with date range filter [iter #0033]
+- **2026-01-25 19:25:27** `[0034]`: feat(dashboard): calculate 24-hour event trend distribution and threat velocity [iter #0034]
