@@ -1,8 +1,5 @@
 # SecureWatch Automated Development Log
 
-# SecureWatch Engineering Changelog
-
-All notable changes and architectural iterations are documented below.
 - **2026-01-15 17:19:46** `[0001]`: feat(engine): refine sliding window threshold for brute force detection [iter #0001]
 - **2026-01-15 17:21:38** `[0002]`: fix(engine): resolve concurrency conflict in rapid consecutive login failures [iter #0002]
 - **2026-01-15 20:35:47** `[0003]`: feat(rules): add distributed account spray detection pattern [iter #0003]
@@ -37,3 +34,4 @@ All notable changes and architectural iterations are documented below.
 - **2026-01-24 18:42:37** `[0032]`: perf(realtime): throttle dashboard KPI broadcasts to sub-second intervals [iter #0032]
 - **2026-01-25 14:35:00** `[0033]`: feat(dashboard): add executive KPI metrics aggregator with date range filter [iter #0033]
 - **2026-01-25 19:25:27** `[0034]`: feat(dashboard): calculate 24-hour event trend distribution and threat velocity [iter #0034]
+- **2026-01-25 19:36:07** `[0035]`: feat(frontend): scaffold Angular 21 standalone components and dark theme [iter #0035]
