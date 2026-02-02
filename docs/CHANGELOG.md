@@ -1,6 +1,5 @@
 # SecureWatch Automated Development Log
 
-- **2026-01-23 11:30:41** `[0030]`: fix(realtime): handle automatic reconnect on WebSocket interruption [iter #0030]
 - **2026-01-24 12:57:09** `[0031]`: refactor(realtime): extract JWT bearer claims in SecurityHub OnConnectedAsync [iter #0031]
 - **2026-01-24 18:42:37** `[0032]`: perf(realtime): throttle dashboard KPI broadcasts to sub-second intervals [iter #0032]
 - **2026-01-25 14:35:00** `[0033]`: feat(dashboard): add executive KPI metrics aggregator with date range filter [iter #0033]
@@ -35,3 +34,4 @@
 - **2026-02-01 15:30:10** `[0062]`: feat(auth): enforce refresh token family revocation on token replay [iter #0062]
 - **2026-02-01 18:51:05** `[0063]`: fix(auth): correct account lockout duration calculation for failed attempts [iter #0063]
 - **2026-02-02 11:26:22** `[0064]`: refactor(identity): streamline custom claims principal factory [iter #0064]
+- **2026-02-02 16:04:28** `[0065]`: feat(auth): add cryptographic nonce verification to refresh token payloads [iter #0065]
