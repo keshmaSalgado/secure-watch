@@ -1,6 +1,5 @@
 # SecureWatch Automated Development Log
 
-- **2026-02-24 13:49:46** `[0128]`: feat(ai): add MITRE ATT&CK tactic classification to incident analyzer [iter #0128]
 - **2026-02-24 14:40:48** `[0129]`: feat(realtime): implement SignalR group subscription for incident feeds [iter #0129]
 - **2026-02-24 21:03:11** `[0130]`: fix(realtime): handle automatic reconnect on WebSocket interruption [iter #0130]
 - **2026-02-25 12:03:52** `[0131]`: refactor(realtime): extract JWT bearer claims in SecurityHub OnConnectedAsync [iter #0131]
@@ -35,3 +34,4 @@
 - **2026-03-05 16:51:05** `[0160]`: refactor(telemetry): decouple ingestion validator from database write pipeline [iter #0160]
 - **2026-03-05 20:57:26** `[0161]`: test(telemetry): add boundary tests for metadata JSON serialization [iter #0161]
 - **2026-03-06 11:08:43** `[0162]`: feat(auth): enforce refresh token family revocation on token replay [iter #0162]
+- **2026-03-06 13:51:02** `[0163]`: fix(auth): correct account lockout duration calculation for failed attempts [iter #0163]
