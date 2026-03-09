@@ -1,6 +1,5 @@
 # SecureWatch Automated Development Log
 
-- **2026-02-27 20:57:40** `[0139]`: feat(monitoring): add real-time pause and resume toggle for telemetry stream [iter #0139]
 - **2026-02-28 16:20:15** `[0140]`: feat(simulator): add interactive cyber attack simulator with preset attack vectors [iter #0140]
 - **2026-02-28 17:58:41** `[0141]`: test(backend): add unit tests for token expiration and revocation validation [iter #0141]
 - **2026-03-01 12:13:03** `[0142]`: test(e2e): add Playwright test scenario for analyst triage workflow [iter #0142]
@@ -35,3 +34,4 @@
 - **2026-03-08 15:02:22** `[0171]`: feat(intel): integrate fallback provider for offline IP reputation lookup [iter #0171]
 - **2026-03-08 20:24:42** `[0172]`: perf(cache): implement sliding expiration for IP threat intelligence scores [iter #0172]
 - **2026-03-09 11:36:42** `[0173]`: fix(intel): validate CIDR block masks for private subnet detection [iter #0173]
+- **2026-03-09 19:13:05** `[0174]`: feat(ai): train Isolation Forest anomaly detector on synthetic normal distributions [iter #0174]
