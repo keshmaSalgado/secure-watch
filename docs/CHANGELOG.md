@@ -1,6 +1,5 @@
 # SecureWatch Automated Development Log
 
-- **2026-03-04 17:02:25** `[0155]`: test(engine): verify 0-100 risk score normalization on compound threats [iter #0155]
 - **2026-03-04 19:18:50** `[0156]`: perf(engine): optimize multi-event correlation window query [iter #0156]
 - **2026-03-05 11:19:21** `[0157]`: feat(telemetry): add batch ingestion endpoint with payload schema validation [iter #0157]
 - **2026-03-05 13:52:19** `[0158]`: fix(telemetry): sanitize raw user agent strings before persistence [iter #0158]
@@ -35,3 +34,4 @@
 - **2026-03-13 16:27:27** `[0187]`: refactor(frontend): convert dashboard telemetry statistics to Angular Signals [iter #0187]
 - **2026-03-13 21:16:18** `[0188]`: fix(frontend): handle 401 HTTP response with silent refresh token interceptor [iter #0188]
 - **2026-03-14 10:43:46** `[0189]`: feat(monitoring): add real-time pause and resume toggle for telemetry stream [iter #0189]
+- **2026-03-14 21:21:50** `[0190]`: feat(simulator): add interactive cyber attack simulator with preset attack vectors [iter #0190]
