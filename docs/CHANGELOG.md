@@ -1,6 +1,5 @@
 # SecureWatch Automated Development Log
 
-- **2026-03-16 18:56:49** `[0196]`: perf(db): add composite B-tree index on (SourceIp, Timestamp) for fast lookups [iter #0196]
 - **2026-03-16 21:09:13** `[0197]`: security(headers): enforce strict Content-Security-Policy and X-Frame-Options DENY [iter #0197]
 - **2026-03-17 10:05:34** `[0198]`: feat(admin): implement immutable audit logging for privilege elevation events [iter #0198]
 - **2026-03-17 15:00:56** `[0199]`: chore(deps): align ASP.NET Core and EF Core packages with version 10.0.4 [iter #0199]
@@ -35,3 +34,4 @@
 - **2026-03-25 12:48:31** `[0228]`: feat(ai): add MITRE ATT&CK tactic classification to incident analyzer [iter #0228]
 - **2026-03-25 14:02:27** `[0229]`: feat(realtime): implement SignalR group subscription for incident feeds [iter #0229]
 - **2026-03-25 17:19:18** `[0230]`: fix(realtime): handle automatic reconnect on WebSocket interruption [iter #0230]
+- **2026-03-25 18:22:27** `[0231]`: refactor(realtime): extract JWT bearer claims in SecurityHub OnConnectedAsync [iter #0231]
