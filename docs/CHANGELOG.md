@@ -1,6 +1,5 @@
 # SecureWatch Automated Development Log
 
-- **2026-03-23 11:11:59** `[0222]`: perf(cache): implement sliding expiration for IP threat intelligence scores [iter #0222]
 - **2026-03-23 13:53:25** `[0223]`: fix(intel): validate CIDR block masks for private subnet detection [iter #0223]
 - **2026-03-23 20:34:58** `[0224]`: feat(ai): train Isolation Forest anomaly detector on synthetic normal distributions [iter #0224]
 - **2026-03-23 21:01:38** `[0225]`: feat(copilot): implement prompt context builder with sanitized event summaries [iter #0225]
@@ -35,3 +34,4 @@
 - **2026-04-02 16:35:31** `[0254]`: refactor(engine): modularize explainable risk scoring factors [iter #0254]
 - **2026-04-02 18:29:56** `[0255]`: test(engine): verify 0-100 risk score normalization on compound threats [iter #0255]
 - **2026-04-02 21:57:30** `[0256]`: perf(engine): optimize multi-event correlation window query [iter #0256]
+- **2026-04-03 19:10:44** `[0257]`: feat(telemetry): add batch ingestion endpoint with payload schema validation [iter #0257]
