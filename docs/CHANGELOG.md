@@ -1,6 +1,5 @@
 # SecureWatch Automated Development Log
 
-- **2026-04-18 10:10:30** `[0301]`: feat(engine): refine sliding window threshold for brute force detection [iter #0301]
 - **2026-04-18 16:28:46** `[0302]`: fix(engine): resolve concurrency conflict in rapid consecutive login failures [iter #0302]
 - **2026-04-18 20:45:00** `[0303]`: feat(rules): add distributed account spray detection pattern [iter #0303]
 - **2026-04-18 21:02:09** `[0304]`: refactor(engine): modularize explainable risk scoring factors [iter #0304]
@@ -35,3 +34,4 @@
 - **2026-04-27 20:05:34** `[0333]`: feat(dashboard): add executive KPI metrics aggregator with date range filter [iter #0333]
 - **2026-04-28 12:49:00** `[0334]`: feat(dashboard): calculate 24-hour event trend distribution and threat velocity [iter #0334]
 - **2026-04-28 13:23:07** `[0335]`: feat(frontend): scaffold Angular 21 standalone components and dark theme [iter #0335]
+- **2026-04-28 17:26:36** `[0336]`: feat(ui): implement cyber defense color palette (#0B1120, #111827, #38BDF8) [iter #0336]
