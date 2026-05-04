@@ -1,6 +1,5 @@
 # SecureWatch Automated Development Log
 
-- **2026-04-23 14:47:16** `[0317]`: feat(incident): add timeline audit entry when severity or analyst changes [iter #0317]
 - **2026-04-23 21:01:30** `[0318]`: fix(incident): prevent invalid status transition from Closed to Investigating [iter #0318]
 - **2026-04-24 12:17:52** `[0319]`: refactor(incident): optimize related event correlation lookup in IncidentService [iter #0319]
 - **2026-04-24 15:10:56** `[0320]`: feat(incident): add automated SOC triage playbook recommendations [iter #0320]
@@ -35,3 +34,4 @@
 - **2026-05-04 15:37:18** `[0349]`: chore(deps): align ASP.NET Core and EF Core packages with version 10.0.4 [iter #0349]
 - **2026-05-04 16:08:10** `[0350]`: refactor(common): standardize ApiResponse generic envelope across all endpoints [iter #0350]
 - **2026-05-04 18:41:51** `[0351]`: feat(engine): refine sliding window threshold for brute force detection [iter #0351]
+- **2026-05-04 20:50:55** `[0352]`: fix(engine): resolve concurrency conflict in rapid consecutive login failures [iter #0352]
