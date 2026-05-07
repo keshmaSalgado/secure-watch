@@ -1,6 +1,5 @@
 # SecureWatch Automated Development Log
 
-- **2026-04-26 18:28:34** `[0327]`: test(ai): verify FastAPI /detect-anomalies response schema and status [iter #0327]
 - **2026-04-26 18:36:42** `[0328]`: feat(ai): add MITRE ATT&CK tactic classification to incident analyzer [iter #0328]
 - **2026-04-26 20:28:43** `[0329]`: feat(realtime): implement SignalR group subscription for incident feeds [iter #0329]
 - **2026-04-27 09:31:32** `[0330]`: fix(realtime): handle automatic reconnect on WebSocket interruption [iter #0330]
@@ -35,3 +34,4 @@
 - **2026-05-06 21:49:50** `[0359]`: perf(telemetry): index security event timestamp and severity level columns [iter #0359]
 - **2026-05-07 11:23:22** `[0360]`: refactor(telemetry): decouple ingestion validator from database write pipeline [iter #0360]
 - **2026-05-07 11:37:15** `[0361]`: test(telemetry): add boundary tests for metadata JSON serialization [iter #0361]
+- **2026-05-07 11:47:14** `[0362]`: feat(auth): enforce refresh token family revocation on token replay [iter #0362]
