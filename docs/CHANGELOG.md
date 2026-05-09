@@ -1,6 +1,5 @@
 # SecureWatch Automated Development Log
 
-- **2026-04-27 10:56:10** `[0331]`: refactor(realtime): extract JWT bearer claims in SecurityHub OnConnectedAsync [iter #0331]
 - **2026-04-27 12:54:39** `[0332]`: perf(realtime): throttle dashboard KPI broadcasts to sub-second intervals [iter #0332]
 - **2026-04-27 20:05:34** `[0333]`: feat(dashboard): add executive KPI metrics aggregator with date range filter [iter #0333]
 - **2026-04-28 12:49:00** `[0334]`: feat(dashboard): calculate 24-hour event trend distribution and threat velocity [iter #0334]
@@ -35,3 +34,4 @@
 - **2026-05-08 10:06:42** `[0363]`: fix(auth): correct account lockout duration calculation for failed attempts [iter #0363]
 - **2026-05-08 19:25:48** `[0364]`: refactor(identity): streamline custom claims principal factory [iter #0364]
 - **2026-05-08 20:57:35** `[0365]`: feat(auth): add cryptographic nonce verification to refresh token payloads [iter #0365]
+- **2026-05-09 09:37:42** `[0366]`: test(auth): verify PBKDF2 password hash verification with 128-bit salt [iter #0366]
