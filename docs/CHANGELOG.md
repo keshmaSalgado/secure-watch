@@ -1,6 +1,5 @@
 # SecureWatch Automated Development Log
 
-- **2026-04-28 13:23:07** `[0335]`: feat(frontend): scaffold Angular 21 standalone components and dark theme [iter #0335]
 - **2026-04-28 17:26:36** `[0336]`: feat(ui): implement cyber defense color palette (#0B1120, #111827, #38BDF8) [iter #0336]
 - **2026-04-29 16:48:34** `[0337]`: refactor(frontend): convert dashboard telemetry statistics to Angular Signals [iter #0337]
 - **2026-04-29 18:14:54** `[0338]`: fix(frontend): handle 401 HTTP response with silent refresh token interceptor [iter #0338]
@@ -35,3 +34,4 @@
 - **2026-05-09 12:15:30** `[0367]`: feat(incident): add timeline audit entry when severity or analyst changes [iter #0367]
 - **2026-05-09 14:06:14** `[0368]`: fix(incident): prevent invalid status transition from Closed to Investigating [iter #0368]
 - **2026-05-09 14:26:57** `[0369]`: refactor(incident): optimize related event correlation lookup in IncidentService [iter #0369]
+- **2026-05-09 21:08:09** `[0370]`: feat(incident): add automated SOC triage playbook recommendations [iter #0370]
