@@ -1,6 +1,5 @@
 # SecureWatch Automated Development Log
 
-- **2026-04-28 17:26:36** `[0336]`: feat(ui): implement cyber defense color palette (#0B1120, #111827, #38BDF8) [iter #0336]
 - **2026-04-29 16:48:34** `[0337]`: refactor(frontend): convert dashboard telemetry statistics to Angular Signals [iter #0337]
 - **2026-04-29 18:14:54** `[0338]`: fix(frontend): handle 401 HTTP response with silent refresh token interceptor [iter #0338]
 - **2026-04-30 11:18:09** `[0339]`: feat(monitoring): add real-time pause and resume toggle for telemetry stream [iter #0339]
@@ -35,3 +34,4 @@
 - **2026-05-09 14:06:14** `[0368]`: fix(incident): prevent invalid status transition from Closed to Investigating [iter #0368]
 - **2026-05-09 14:26:57** `[0369]`: refactor(incident): optimize related event correlation lookup in IncidentService [iter #0369]
 - **2026-05-09 21:08:09** `[0370]`: feat(incident): add automated SOC triage playbook recommendations [iter #0370]
+- **2026-05-10 11:32:01** `[0371]`: feat(intel): integrate fallback provider for offline IP reputation lookup [iter #0371]
