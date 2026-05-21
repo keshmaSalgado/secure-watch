@@ -1,6 +1,5 @@
 # SecureWatch Automated Development Log
 
-- **2026-05-09 14:06:14** `[0368]`: fix(incident): prevent invalid status transition from Closed to Investigating [iter #0368]
 - **2026-05-09 14:26:57** `[0369]`: refactor(incident): optimize related event correlation lookup in IncidentService [iter #0369]
 - **2026-05-09 21:08:09** `[0370]`: feat(incident): add automated SOC triage playbook recommendations [iter #0370]
 - **2026-05-10 11:32:01** `[0371]`: feat(intel): integrate fallback provider for offline IP reputation lookup [iter #0371]
@@ -35,3 +34,4 @@
 - **2026-05-20 11:49:19** `[0400]`: refactor(common): standardize ApiResponse generic envelope across all endpoints [iter #0400]
 - **2026-05-20 14:54:26** `[0401]`: feat(engine): refine sliding window threshold for brute force detection [iter #0401]
 - **2026-05-21 09:43:59** `[0402]`: fix(engine): resolve concurrency conflict in rapid consecutive login failures [iter #0402]
+- **2026-05-21 11:39:05** `[0403]`: feat(rules): add distributed account spray detection pattern [iter #0403]
