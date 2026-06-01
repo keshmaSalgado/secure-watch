@@ -1,6 +1,5 @@
 # SecureWatch Automated Development Log
 
-- **2026-05-22 17:34:16** `[0406]`: perf(engine): optimize multi-event correlation window query [iter #0406]
 - **2026-05-23 10:03:32** `[0407]`: feat(telemetry): add batch ingestion endpoint with payload schema validation [iter #0407]
 - **2026-05-23 10:43:23** `[0408]`: fix(telemetry): sanitize raw user agent strings before persistence [iter #0408]
 - **2026-05-23 15:25:35** `[0409]`: perf(telemetry): index security event timestamp and severity level columns [iter #0409]
@@ -35,3 +34,4 @@
 - **2026-05-31 14:37:11** `[0438]`: fix(frontend): handle 401 HTTP response with silent refresh token interceptor [iter #0438]
 - **2026-05-31 21:50:05** `[0439]`: feat(monitoring): add real-time pause and resume toggle for telemetry stream [iter #0439]
 - **2026-06-01 17:01:07** `[0440]`: feat(simulator): add interactive cyber attack simulator with preset attack vectors [iter #0440]
+- **2026-06-01 17:46:15** `[0441]`: test(backend): add unit tests for token expiration and revocation validation [iter #0441]
