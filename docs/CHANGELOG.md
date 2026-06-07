@@ -1,6 +1,5 @@
 # SecureWatch Automated Development Log
 
-- **2026-05-28 13:23:22** `[0426]`: refactor(ai): serialize anomaly features into structured NumPy arrays [iter #0426]
 - **2026-05-28 18:00:11** `[0427]`: test(ai): verify FastAPI /detect-anomalies response schema and status [iter #0427]
 - **2026-05-28 21:02:40** `[0428]`: feat(ai): add MITRE ATT&CK tactic classification to incident analyzer [iter #0428]
 - **2026-05-29 11:53:08** `[0429]`: feat(realtime): implement SignalR group subscription for incident feeds [iter #0429]
@@ -35,3 +34,4 @@
 - **2026-06-06 16:53:35** `[0458]`: fix(telemetry): sanitize raw user agent strings before persistence [iter #0458]
 - **2026-06-06 20:40:15** `[0459]`: perf(telemetry): index security event timestamp and severity level columns [iter #0459]
 - **2026-06-07 09:33:18** `[0460]`: refactor(telemetry): decouple ingestion validator from database write pipeline [iter #0460]
+- **2026-06-07 12:26:45** `[0461]`: test(telemetry): add boundary tests for metadata JSON serialization [iter #0461]
