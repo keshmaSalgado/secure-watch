@@ -1,6 +1,5 @@
 # SecureWatch Automated Development Log
 
-- **2026-06-09 13:53:31** `[0466]`: test(auth): verify PBKDF2 password hash verification with 128-bit salt [iter #0466]
 - **2026-06-09 20:32:47** `[0467]`: feat(incident): add timeline audit entry when severity or analyst changes [iter #0467]
 - **2026-06-10 14:13:36** `[0468]`: fix(incident): prevent invalid status transition from Closed to Investigating [iter #0468]
 - **2026-06-10 15:38:55** `[0469]`: refactor(incident): optimize related event correlation lookup in IncidentService [iter #0469]
@@ -35,3 +34,4 @@
 - **2026-06-18 17:31:47** `[0498]`: feat(admin): implement immutable audit logging for privilege elevation events [iter #0498]
 - **2026-06-19 15:17:51** `[0499]`: chore(deps): align ASP.NET Core and EF Core packages with version 10.0.4 [iter #0499]
 - **2026-06-19 18:33:52** `[0500]`: refactor(common): standardize ApiResponse generic envelope across all endpoints [iter #0500]
+- **2026-06-19 18:56:29** `[0501]`: feat(engine): refine sliding window threshold for brute force detection [iter #0501]
