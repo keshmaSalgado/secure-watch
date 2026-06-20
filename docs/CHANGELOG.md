@@ -1,6 +1,5 @@
 # SecureWatch Automated Development Log
 
-- **2026-06-10 15:38:55** `[0469]`: refactor(incident): optimize related event correlation lookup in IncidentService [iter #0469]
 - **2026-06-11 09:10:24** `[0470]`: feat(incident): add automated SOC triage playbook recommendations [iter #0470]
 - **2026-06-11 16:15:03** `[0471]`: feat(intel): integrate fallback provider for offline IP reputation lookup [iter #0471]
 - **2026-06-11 17:22:39** `[0472]`: perf(cache): implement sliding expiration for IP threat intelligence scores [iter #0472]
@@ -35,3 +34,4 @@
 - **2026-06-19 18:56:29** `[0501]`: feat(engine): refine sliding window threshold for brute force detection [iter #0501]
 - **2026-06-20 10:47:22** `[0502]`: fix(engine): resolve concurrency conflict in rapid consecutive login failures [iter #0502]
 - **2026-06-20 14:01:35** `[0503]`: feat(rules): add distributed account spray detection pattern [iter #0503]
+- **2026-06-20 14:24:08** `[0504]`: refactor(engine): modularize explainable risk scoring factors [iter #0504]
