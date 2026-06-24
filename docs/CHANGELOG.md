@@ -1,6 +1,5 @@
 # SecureWatch Automated Development Log
 
-- **2026-06-13 15:32:07** `[0482]`: perf(realtime): throttle dashboard KPI broadcasts to sub-second intervals [iter #0482]
 - **2026-06-13 17:18:05** `[0483]`: feat(dashboard): add executive KPI metrics aggregator with date range filter [iter #0483]
 - **2026-06-13 19:11:17** `[0484]`: feat(dashboard): calculate 24-hour event trend distribution and threat velocity [iter #0484]
 - **2026-06-14 15:52:13** `[0485]`: feat(frontend): scaffold Angular 21 standalone components and dark theme [iter #0485]
@@ -35,3 +34,4 @@
 - **2026-06-23 19:16:27** `[0514]`: refactor(identity): streamline custom claims principal factory [iter #0514]
 - **2026-06-24 16:01:52** `[0515]`: feat(auth): add cryptographic nonce verification to refresh token payloads [iter #0515]
 - **2026-06-24 17:19:07** `[0516]`: test(auth): verify PBKDF2 password hash verification with 128-bit salt [iter #0516]
+- **2026-06-24 19:28:01** `[0517]`: feat(incident): add timeline audit entry when severity or analyst changes [iter #0517]
