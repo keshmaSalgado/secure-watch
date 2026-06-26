@@ -1,6 +1,5 @@
 # SecureWatch Automated Development Log
 
-- **2026-06-16 21:11:50** `[0493]`: chore(devops): optimize multi-stage build caching in ASP.NET and Angular Dockerfiles [iter #0493]
 - **2026-06-17 13:38:22** `[0494]`: docs(api): document REST API contracts and Swagger schema models [iter #0494]
 - **2026-06-17 21:24:57** `[0495]`: docs(architecture): update clean architecture data flow diagrams and sequence notes [iter #0495]
 - **2026-06-18 10:26:06** `[0496]`: perf(db): add composite B-tree index on (SourceIp, Timestamp) for fast lookups [iter #0496]
@@ -35,3 +34,4 @@
 - **2026-06-25 18:50:40** `[0525]`: feat(copilot): implement prompt context builder with sanitized event summaries [iter #0525]
 - **2026-06-26 09:29:02** `[0526]`: refactor(ai): serialize anomaly features into structured NumPy arrays [iter #0526]
 - **2026-06-26 10:40:20** `[0527]`: test(ai): verify FastAPI /detect-anomalies response schema and status [iter #0527]
+- **2026-06-26 10:54:51** `[0528]`: feat(ai): add MITRE ATT&CK tactic classification to incident analyzer [iter #0528]
