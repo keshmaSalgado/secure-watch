@@ -1,6 +1,5 @@
 # SecureWatch Automated Development Log
 
-- **2026-06-22 17:14:10** `[0511]`: test(telemetry): add boundary tests for metadata JSON serialization [iter #0511]
 - **2026-06-22 18:36:19** `[0512]`: feat(auth): enforce refresh token family revocation on token replay [iter #0512]
 - **2026-06-23 10:58:50** `[0513]`: fix(auth): correct account lockout duration calculation for failed attempts [iter #0513]
 - **2026-06-23 19:16:27** `[0514]`: refactor(identity): streamline custom claims principal factory [iter #0514]
@@ -35,3 +34,4 @@
 - **2026-07-01 14:51:59** `[0543]`: chore(devops): optimize multi-stage build caching in ASP.NET and Angular Dockerfiles [iter #0543]
 - **2026-07-01 17:34:13** `[0544]`: docs(api): document REST API contracts and Swagger schema models [iter #0544]
 - **2026-07-02 17:31:54** `[0545]`: docs(architecture): update clean architecture data flow diagrams and sequence notes [iter #0545]
+- **2026-07-02 21:34:09** `[0546]`: perf(db): add composite B-tree index on (SourceIp, Timestamp) for fast lookups [iter #0546]
