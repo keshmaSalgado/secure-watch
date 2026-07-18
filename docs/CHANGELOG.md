@@ -1,6 +1,5 @@
 # SecureWatch Automated Development Log
 
-- **2026-07-09 15:56:49** `[0565]`: feat(auth): add cryptographic nonce verification to refresh token payloads [iter #0565]
 - **2026-07-09 17:47:23** `[0566]`: test(auth): verify PBKDF2 password hash verification with 128-bit salt [iter #0566]
 - **2026-07-09 18:38:48** `[0567]`: feat(incident): add timeline audit entry when severity or analyst changes [iter #0567]
 - **2026-07-10 12:58:43** `[0568]`: fix(incident): prevent invalid status transition from Closed to Investigating [iter #0568]
@@ -35,3 +34,4 @@
 - **2026-07-18 10:55:24** `[0597]`: security(headers): enforce strict Content-Security-Policy and X-Frame-Options DENY [iter #0597]
 - **2026-07-18 11:01:18** `[0598]`: feat(admin): implement immutable audit logging for privilege elevation events [iter #0598]
 - **2026-07-18 16:22:48** `[0599]`: chore(deps): align ASP.NET Core and EF Core packages with version 10.0.4 [iter #0599]
+- **2026-07-18 16:34:17** `[0600]`: refactor(common): standardize ApiResponse generic envelope across all endpoints [iter #0600]
