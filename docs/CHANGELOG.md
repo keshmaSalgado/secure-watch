@@ -1,6 +1,5 @@
 # SecureWatch Automated Development Log
 
-- **2026-07-08 19:42:39** `[0562]`: feat(auth): enforce refresh token family revocation on token replay [iter #0562]
 - **2026-07-08 19:45:02** `[0563]`: fix(auth): correct account lockout duration calculation for failed attempts [iter #0563]
 - **2026-07-09 09:17:51** `[0564]`: refactor(identity): streamline custom claims principal factory [iter #0564]
 - **2026-07-09 15:56:49** `[0565]`: feat(auth): add cryptographic nonce verification to refresh token payloads [iter #0565]
@@ -35,3 +34,4 @@
 - **2026-07-17 12:05:45** `[0594]`: docs(api): document REST API contracts and Swagger schema models [iter #0594]
 - **2026-07-17 17:19:28** `[0595]`: docs(architecture): update clean architecture data flow diagrams and sequence notes [iter #0595]
 - **2026-07-17 19:05:50** `[0596]`: perf(db): add composite B-tree index on (SourceIp, Timestamp) for fast lookups [iter #0596]
+- **2026-07-18 10:55:24** `[0597]`: security(headers): enforce strict Content-Security-Policy and X-Frame-Options DENY [iter #0597]
