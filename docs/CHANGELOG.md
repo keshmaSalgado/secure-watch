@@ -1,6 +1,5 @@
 # SecureWatch Automated Development Log
 
-- **2026-07-17 17:19:28** `[0595]`: docs(architecture): update clean architecture data flow diagrams and sequence notes [iter #0595]
 - **2026-07-17 19:05:50** `[0596]`: perf(db): add composite B-tree index on (SourceIp, Timestamp) for fast lookups [iter #0596]
 - **2026-07-18 10:55:24** `[0597]`: security(headers): enforce strict Content-Security-Policy and X-Frame-Options DENY [iter #0597]
 - **2026-07-18 11:01:18** `[0598]`: feat(admin): implement immutable audit logging for privilege elevation events [iter #0598]
@@ -35,3 +34,4 @@
 - **2026-07-28 17:30:03** `[0627]`: test(ai): verify FastAPI /detect-anomalies response schema and status [iter #0627]
 - **2026-07-28 18:23:03** `[0628]`: feat(ai): add MITRE ATT&CK tactic classification to incident analyzer [iter #0628]
 - **2026-07-29 09:37:51** `[0629]`: feat(realtime): implement SignalR group subscription for incident feeds [iter #0629]
+- **2026-07-29 20:28:39** `[0630]`: fix(realtime): handle automatic reconnect on WebSocket interruption [iter #0630]
