@@ -1,6 +1,5 @@
 # SecureWatch Automated Development Log
 
-- **2026-08-04 09:47:37** `[0647]`: security(headers): enforce strict Content-Security-Policy and X-Frame-Options DENY [iter #0647]
 - **2026-08-04 17:34:52** `[0648]`: feat(admin): implement immutable audit logging for privilege elevation events [iter #0648]
 - **2026-08-05 10:17:53** `[0649]`: chore(deps): align ASP.NET Core and EF Core packages with version 10.0.4 [iter #0649]
 - **2026-08-05 13:43:16** `[0650]`: refactor(common): standardize ApiResponse generic envelope across all endpoints [iter #0650]
@@ -35,3 +34,4 @@
 - **2026-08-13 21:17:08** `[0679]`: feat(realtime): implement SignalR group subscription for incident feeds [iter #0679]
 - **2026-08-14 12:07:24** `[0680]`: fix(realtime): handle automatic reconnect on WebSocket interruption [iter #0680]
 - **2026-08-14 13:18:44** `[0681]`: refactor(realtime): extract JWT bearer claims in SecurityHub OnConnectedAsync [iter #0681]
+- **2026-08-15 11:59:46** `[0682]`: perf(realtime): throttle dashboard KPI broadcasts to sub-second intervals [iter #0682]
