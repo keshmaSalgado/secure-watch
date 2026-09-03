@@ -1,6 +1,5 @@
 # SecureWatch Automated Development Log
 
-- **2026-08-22 21:42:22** `[0714]`: refactor(identity): streamline custom claims principal factory [iter #0714]
 - **2026-08-23 18:03:58** `[0715]`: feat(auth): add cryptographic nonce verification to refresh token payloads [iter #0715]
 - **2026-08-23 20:27:19** `[0716]`: test(auth): verify PBKDF2 password hash verification with 128-bit salt [iter #0716]
 - **2026-08-24 16:37:15** `[0717]`: feat(incident): add timeline audit entry when severity or analyst changes [iter #0717]
@@ -35,3 +34,4 @@
 - **2026-09-02 17:20:27** `[0746]`: perf(db): add composite B-tree index on (SourceIp, Timestamp) for fast lookups [iter #0746]
 - **2026-09-02 19:44:20** `[0747]`: security(headers): enforce strict Content-Security-Policy and X-Frame-Options DENY [iter #0747]
 - **2026-09-03 10:46:02** `[0748]`: feat(admin): implement immutable audit logging for privilege elevation events [iter #0748]
+- **2026-09-03 11:53:49** `[0749]`: chore(deps): align ASP.NET Core and EF Core packages with version 10.0.4 [iter #0749]
