@@ -1,6 +1,5 @@
 # SecureWatch Automated Development Log
 
-- **2026-08-25 10:30:53** `[0720]`: feat(incident): add automated SOC triage playbook recommendations [iter #0720]
 - **2026-08-25 15:09:51** `[0721]`: feat(intel): integrate fallback provider for offline IP reputation lookup [iter #0721]
 - **2026-08-25 15:28:48** `[0722]`: perf(cache): implement sliding expiration for IP threat intelligence scores [iter #0722]
 - **2026-08-25 18:19:34** `[0723]`: fix(intel): validate CIDR block masks for private subnet detection [iter #0723]
@@ -35,3 +34,4 @@
 - **2026-09-03 21:05:47** `[0752]`: fix(engine): resolve concurrency conflict in rapid consecutive login failures [iter #0752]
 - **2026-09-04 18:08:59** `[0753]`: feat(rules): add distributed account spray detection pattern [iter #0753]
 - **2026-09-04 20:03:20** `[0754]`: refactor(engine): modularize explainable risk scoring factors [iter #0754]
+- **2026-09-04 21:03:13** `[0755]`: test(engine): verify 0-100 risk score normalization on compound threats [iter #0755]
