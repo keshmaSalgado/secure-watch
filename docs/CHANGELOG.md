@@ -1,6 +1,5 @@
 # SecureWatch Automated Development Log
 
-- **2026-09-03 11:53:49** `[0749]`: chore(deps): align ASP.NET Core and EF Core packages with version 10.0.4 [iter #0749]
 - **2026-09-03 13:25:02** `[0750]`: refactor(common): standardize ApiResponse generic envelope across all endpoints [iter #0750]
 - **2026-09-03 17:34:57** `[0751]`: feat(engine): refine sliding window threshold for brute force detection [iter #0751]
 - **2026-09-03 21:05:47** `[0752]`: fix(engine): resolve concurrency conflict in rapid consecutive login failures [iter #0752]
@@ -35,3 +34,4 @@
 - **2026-09-11 14:54:43** `[0781]`: refactor(realtime): extract JWT bearer claims in SecurityHub OnConnectedAsync [iter #0781]
 - **2026-09-12 10:14:33** `[0782]`: perf(realtime): throttle dashboard KPI broadcasts to sub-second intervals [iter #0782]
 - **2026-09-12 13:58:57** `[0783]`: feat(dashboard): add executive KPI metrics aggregator with date range filter [iter #0783]
+- **2026-09-12 16:00:44** `[0784]`: feat(dashboard): calculate 24-hour event trend distribution and threat velocity [iter #0784]
