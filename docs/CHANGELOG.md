@@ -1,6 +1,5 @@
 # SecureWatch Automated Development Log
 
-- **2026-09-04 20:03:20** `[0754]`: refactor(engine): modularize explainable risk scoring factors [iter #0754]
 - **2026-09-04 21:03:13** `[0755]`: test(engine): verify 0-100 risk score normalization on compound threats [iter #0755]
 - **2026-09-05 10:13:44** `[0756]`: perf(engine): optimize multi-event correlation window query [iter #0756]
 - **2026-09-05 11:03:34** `[0757]`: feat(telemetry): add batch ingestion endpoint with payload schema validation [iter #0757]
@@ -35,3 +34,4 @@
 - **2026-09-12 17:04:47** `[0786]`: feat(ui): implement cyber defense color palette (#0B1120, #111827, #38BDF8) [iter #0786]
 - **2026-09-13 14:24:50** `[0787]`: refactor(frontend): convert dashboard telemetry statistics to Angular Signals [iter #0787]
 - **2026-09-13 17:04:58** `[0788]`: fix(frontend): handle 401 HTTP response with silent refresh token interceptor [iter #0788]
+- **2026-09-14 13:34:03** `[0789]`: feat(monitoring): add real-time pause and resume toggle for telemetry stream [iter #0789]
