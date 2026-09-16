@@ -1,6 +1,5 @@
 # SecureWatch Automated Development Log
 
-- **2026-09-06 09:04:20** `[0760]`: refactor(telemetry): decouple ingestion validator from database write pipeline [iter #0760]
 - **2026-09-06 11:41:15** `[0761]`: test(telemetry): add boundary tests for metadata JSON serialization [iter #0761]
 - **2026-09-06 14:39:47** `[0762]`: feat(auth): enforce refresh token family revocation on token replay [iter #0762]
 - **2026-09-06 16:25:19** `[0763]`: fix(auth): correct account lockout duration calculation for failed attempts [iter #0763]
@@ -35,3 +34,4 @@
 - **2026-09-15 14:23:47** `[0792]`: test(e2e): add Playwright test scenario for analyst triage workflow [iter #0792]
 - **2026-09-15 16:28:18** `[0793]`: chore(devops): optimize multi-stage build caching in ASP.NET and Angular Dockerfiles [iter #0793]
 - **2026-09-15 17:32:49** `[0794]`: docs(api): document REST API contracts and Swagger schema models [iter #0794]
+- **2026-09-16 12:03:40** `[0795]`: docs(architecture): update clean architecture data flow diagrams and sequence notes [iter #0795]
