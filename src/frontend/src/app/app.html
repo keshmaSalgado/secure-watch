@@ -1,0 +1,25 @@
+@if (auth.isAuthenticated()) {
+  <div class="min-h-screen bg-[#0B1120] text-[#F8FAFC] flex flex-col">
+    <!-- Top Navigation Bar -->
+    <app-navbar (openSimulator)="openSimulator()"></app-navbar>
+
+    <div class="flex-1 flex overflow-hidden">
+      <!-- Left Collapsible Sidebar -->
+      <app-sidebar class="hidden md:block flex-shrink-0"></app-sidebar>
+
+      <!-- Main Central Content Panel -->
+      <main class="flex-1 p-6 overflow-y-auto max-h-[calc(100vh-4rem)]">
+        <router-outlet></router-outlet>
+      </main>
+    </div>
+
+    <!-- Simulator Modal Triggered from anywhere -->
+    @if (showSimulator()) {
+      <app-simulator-modal (close)="closeSimulator()"></app-simulator-modal>
+    }
+  </div>
+} @else {
+  <div class="min-h-screen bg-[#0B1120]">
+    <router-outlet></router-outlet>
+  </div>
+}
