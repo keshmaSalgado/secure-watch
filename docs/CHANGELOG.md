@@ -1,6 +1,5 @@
 # SecureWatch Automated Development Log
 
-- **2026-09-29 19:34:01** `[0842]`: test(e2e): add Playwright test scenario for analyst triage workflow [iter #0842]
 - **2026-09-29 21:11:58** `[0843]`: chore(devops): optimize multi-stage build caching in ASP.NET and Angular Dockerfiles [iter #0843]
 - **2026-09-30 11:16:34** `[0844]`: docs(api): document REST API contracts and Swagger schema models [iter #0844]
 - **2026-09-30 15:49:46** `[0845]`: docs(architecture): update clean architecture data flow diagrams and sequence notes [iter #0845]
@@ -35,3 +34,4 @@
 - **2026-10-07 18:34:15** `[0874]`: feat(ai): train Isolation Forest anomaly detector on synthetic normal distributions [iter #0874]
 - **2026-10-08 16:03:09** `[0875]`: feat(copilot): implement prompt context builder with sanitized event summaries [iter #0875]
 - **2026-10-08 16:40:08** `[0876]`: refactor(ai): serialize anomaly features into structured NumPy arrays [iter #0876]
+- **2026-10-08 16:48:52** `[0877]`: test(ai): verify FastAPI /detect-anomalies response schema and status [iter #0877]
