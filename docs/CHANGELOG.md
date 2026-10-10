@@ -1,6 +1,5 @@
 # SecureWatch Automated Development Log
 
-- **2026-10-02 09:39:29** `[0852]`: fix(engine): resolve concurrency conflict in rapid consecutive login failures [iter #0852]
 - **2026-10-02 14:35:27** `[0853]`: feat(rules): add distributed account spray detection pattern [iter #0853]
 - **2026-10-02 19:51:40** `[0854]`: refactor(engine): modularize explainable risk scoring factors [iter #0854]
 - **2026-10-03 14:25:26** `[0855]`: test(engine): verify 0-100 risk score normalization on compound threats [iter #0855]
@@ -35,3 +34,4 @@
 - **2026-10-09 19:38:32** `[0884]`: feat(dashboard): calculate 24-hour event trend distribution and threat velocity [iter #0884]
 - **2026-10-10 09:31:49** `[0885]`: feat(frontend): scaffold Angular 21 standalone components and dark theme [iter #0885]
 - **2026-10-10 10:56:51** `[0886]`: feat(ui): implement cyber defense color palette (#0B1120, #111827, #38BDF8) [iter #0886]
+- **2026-10-10 13:17:54** `[0887]`: refactor(frontend): convert dashboard telemetry statistics to Angular Signals [iter #0887]
