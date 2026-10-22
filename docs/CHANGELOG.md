@@ -1,6 +1,5 @@
 # SecureWatch Automated Development Log
 
-- **2026-10-13 11:51:48** `[0894]`: docs(api): document REST API contracts and Swagger schema models [iter #0894]
 - **2026-10-13 16:55:37** `[0895]`: docs(architecture): update clean architecture data flow diagrams and sequence notes [iter #0895]
 - **2026-10-13 17:36:30** `[0896]`: perf(db): add composite B-tree index on (SourceIp, Timestamp) for fast lookups [iter #0896]
 - **2026-10-14 12:26:59** `[0897]`: security(headers): enforce strict Content-Security-Policy and X-Frame-Options DENY [iter #0897]
@@ -35,3 +34,4 @@
 - **2026-10-22 16:32:03** `[0926]`: refactor(ai): serialize anomaly features into structured NumPy arrays [iter #0926]
 - **2026-10-22 17:23:27** `[0927]`: test(ai): verify FastAPI /detect-anomalies response schema and status [iter #0927]
 - **2026-10-22 20:25:13** `[0928]`: feat(ai): add MITRE ATT&CK tactic classification to incident analyzer [iter #0928]
+- **2026-10-22 20:43:01** `[0929]`: feat(realtime): implement SignalR group subscription for incident feeds [iter #0929]
