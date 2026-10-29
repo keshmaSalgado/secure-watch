@@ -1,0 +1,103 @@
+name: SecureWatch CI/CD Pipeline
+
+on:
+  push:
+    branches: [ main, develop ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  # =========================================================================
+  # 1. ASP.NET Core 10 Web API Build & Test
+  # =========================================================================
+  backend-ci:
+    name: Backend CI (.NET 10)
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup .NET 10 SDK
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '10.0.x'
+
+      - name: Restore NuGet Packages
+        run: dotnet restore SecureWatch.slnx
+
+      - name: Build Backend Solution
+        run: dotnet build SecureWatch.slnx --configuration Release --no-restore
+
+      - name: Run Backend Unit & Integration Tests
+        run: dotnet test tests/backend/SecureWatch.Tests/SecureWatch.Tests.csproj --configuration Release --no-build --verbosity normal
+
+  # =========================================================================
+  # 2. Python AI Microservice Tests
+  # =========================================================================
+  ai-service-ci:
+    name: Python AI Microservice CI (Pytest)
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: 'pip'
+
+      - name: Install AI Service Dependencies
+        working-directory: src/ai-service
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Run Pytest Suite
+        working-directory: src/ai-service
+        run: |
+          pytest tests/ -v
+
+  # =========================================================================
+  # 3. Angular 21 Frontend Build
+  # =========================================================================
+  frontend-ci:
+    name: Angular Frontend CI (Node 22)
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: 'npm'
+          cache-dependency-path: src/frontend/package-lock.json
+
+      - name: Install Frontend Dependencies
+        working-directory: src/frontend
+        run: npm ci
+
+      - name: Build Angular Application
+        working-directory: src/frontend
+        run: npm run build -- --configuration production
+
+  # =========================================================================
+  # 4. Docker Compose Config Validation
+  # =========================================================================
+  docker-validation:
+    name: Docker Configuration Validation
+    runs-on: ubuntu-latest
+    needs: [backend-ci, ai-service-ci, frontend-ci]
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Validate Docker Compose Configuration
+        run: docker compose config --quiet
+

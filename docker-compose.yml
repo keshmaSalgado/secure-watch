@@ -1,0 +1,135 @@
+version: '3.8'
+
+services:
+  # =========================================================================
+  # 1. PostgreSQL Database Service
+  # =========================================================================
+  postgres:
+    image: postgres:16-alpine
+    container_name: securewatch-postgres
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: ${POSTGRES_DB:-securewatch}
+      POSTGRES_USER: ${POSTGRES_USER:-securewatch_user}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-SecureWatchDbPass2026!}
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER:-securewatch_user} -d ${POSTGRES_DB:-securewatch}"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    networks:
+      - securewatch-net
+
+  # =========================================================================
+  # 2. Redis In-Memory Cache & Distributed Coordination
+  # =========================================================================
+  redis:
+    image: redis:7-alpine
+    container_name: securewatch-redis
+    restart: unless-stopped
+    command: redis-server --appendonly yes --requirepass ${REDIS_PASSWORD:-SecureWatchRedis2026!}
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis_data:/data
+    healthcheck:
+      test: ["CMD", "redis-cli", "-a", "${REDIS_PASSWORD:-SecureWatchRedis2026!}", "ping"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    networks:
+      - securewatch-net
+
+  # =========================================================================
+  # 3. Python AI & Anomaly Detection Microservice
+  # =========================================================================
+  ai-service:
+    build:
+      context: ./src/ai-service
+      dockerfile: Dockerfile
+    container_name: securewatch-ai
+    restart: unless-stopped
+    environment:
+      - PORT=8000
+      - LLM_PROVIDER=${LLM_PROVIDER:-heuristic}
+      - OPENAI_API_KEY=${OPENAI_API_KEY:-}
+    ports:
+      - "8000:8000"
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/health"]
+      interval: 15s
+      timeout: 5s
+      retries: 3
+    networks:
+      - securewatch-net
+
+  # =========================================================================
+  # 4. ASP.NET Core 10 Web API Backend
+  # =========================================================================
+  backend:
+    build:
+      context: .
+      dockerfile: src/backend/Dockerfile
+    container_name: securewatch-backend
+    restart: unless-stopped
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Production
+      - ConnectionStrings__DefaultConnection=Host=postgres;Port=5432;Database=${POSTGRES_DB:-securewatch};Username=${POSTGRES_USER:-securewatch_user};Password=${POSTGRES_PASSWORD:-SecureWatchDbPass2026!};Include Error Detail=true
+      - ConnectionStrings__Redis=redis:6379,password=${REDIS_PASSWORD:-SecureWatchRedis2026!}
+      - Jwt__SecretKey=${JWT_SECRET:-SuperSecretKeyForSecureWatchEnterprisePlatformJwt2026!Min32Bytes}
+      - Jwt__Issuer=SecureWatchAuthServer
+      - Jwt__Audience=SecureWatchAudience
+      - AiService__BaseUrl=http://ai-service:8000
+    ports:
+      - "5000:5000"
+    depends_on:
+      postgres:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+      ai-service:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:5000/health"]
+      interval: 15s
+      timeout: 5s
+      retries: 3
+    networks:
+      - securewatch-net
+
+  # =========================================================================
+  # 5. Angular Frontend SPA & Reverse Proxy
+  # =========================================================================
+  frontend:
+    build:
+      context: ./src/frontend
+      dockerfile: Dockerfile
+    container_name: securewatch-frontend
+    restart: unless-stopped
+    ports:
+      - "80:80"
+      - "4200:80"
+    depends_on:
+      - backend
+    healthcheck:
+      test: ["CMD", "wget", "-qO-", "http://localhost/health"]
+      interval: 20s
+      timeout: 3s
+      retries: 3
+    networks:
+      - securewatch-net
+
+networks:
+  securewatch-net:
+    driver: bridge
+
+volumes:
+  postgres_data:
+    driver: local
+  redis_data:
+    driver: local
+
