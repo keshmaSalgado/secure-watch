@@ -1,6 +1,5 @@
 # SecureWatch Automated Development Log
 
-- **2026-10-21 15:13:17** `[0923]`: fix(intel): validate CIDR block masks for private subnet detection [iter #0923]
 - **2026-10-21 20:59:40** `[0924]`: feat(ai): train Isolation Forest anomaly detector on synthetic normal distributions [iter #0924]
 - **2026-10-22 10:48:43** `[0925]`: feat(copilot): implement prompt context builder with sanitized event summaries [iter #0925]
 - **2026-10-22 16:32:03** `[0926]`: refactor(ai): serialize anomaly features into structured NumPy arrays [iter #0926]
@@ -35,3 +34,4 @@
 - **2026-10-29 17:26:33** `[0955]`: test(engine): verify 0-100 risk score normalization on compound threats [iter #0955]
 - **2026-10-29 18:03:48** `[0956]`: perf(engine): optimize multi-event correlation window query [iter #0956]
 - **2026-10-30 10:47:38** `[0957]`: feat(telemetry): add batch ingestion endpoint with payload schema validation [iter #0957]
+- **2026-10-30 15:23:59** `[0958]`: fix(telemetry): sanitize raw user agent strings before persistence [iter #0958]
