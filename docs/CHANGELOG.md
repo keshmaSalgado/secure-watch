@@ -1,6 +1,5 @@
 # SecureWatch Automated Development Log
 
-- **2026-10-22 20:43:01** `[0929]`: feat(realtime): implement SignalR group subscription for incident feeds [iter #0929]
 - **2026-10-23 10:55:12** `[0930]`: fix(realtime): handle automatic reconnect on WebSocket interruption [iter #0930]
 - **2026-10-23 12:28:16** `[0931]`: refactor(realtime): extract JWT bearer claims in SecurityHub OnConnectedAsync [iter #0931]
 - **2026-10-24 17:50:31** `[0932]`: perf(realtime): throttle dashboard KPI broadcasts to sub-second intervals [iter #0932]
@@ -35,3 +34,4 @@
 - **2026-10-31 09:51:23** `[0961]`: test(telemetry): add boundary tests for metadata JSON serialization [iter #0961]
 - **2026-10-31 16:25:15** `[0962]`: feat(auth): enforce refresh token family revocation on token replay [iter #0962]
 - **2026-11-01 12:18:08** `[0963]`: fix(auth): correct account lockout duration calculation for failed attempts [iter #0963]
+- **2026-11-01 16:47:39** `[0964]`: refactor(identity): streamline custom claims principal factory [iter #0964]
