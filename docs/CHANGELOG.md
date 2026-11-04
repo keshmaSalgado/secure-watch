@@ -1,6 +1,5 @@
 # SecureWatch Automated Development Log
 
-- **2026-10-25 19:49:17** `[0937]`: refactor(frontend): convert dashboard telemetry statistics to Angular Signals [iter #0937]
 - **2026-10-26 10:34:35** `[0938]`: fix(frontend): handle 401 HTTP response with silent refresh token interceptor [iter #0938]
 - **2026-10-26 11:43:10** `[0939]`: feat(monitoring): add real-time pause and resume toggle for telemetry stream [iter #0939]
 - **2026-10-26 13:18:32** `[0940]`: feat(simulator): add interactive cyber attack simulator with preset attack vectors [iter #0940]
@@ -35,3 +34,4 @@
 - **2026-11-03 13:30:57** `[0969]`: refactor(incident): optimize related event correlation lookup in IncidentService [iter #0969]
 - **2026-11-03 18:32:19** `[0970]`: feat(incident): add automated SOC triage playbook recommendations [iter #0970]
 - **2026-11-03 18:55:18** `[0971]`: feat(intel): integrate fallback provider for offline IP reputation lookup [iter #0971]
+- **2026-11-04 10:59:01** `[0972]`: perf(cache): implement sliding expiration for IP threat intelligence scores [iter #0972]
