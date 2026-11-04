@@ -1,6 +1,5 @@
 # SecureWatch Automated Development Log
 
-- **2026-10-26 10:34:35** `[0938]`: fix(frontend): handle 401 HTTP response with silent refresh token interceptor [iter #0938]
 - **2026-10-26 11:43:10** `[0939]`: feat(monitoring): add real-time pause and resume toggle for telemetry stream [iter #0939]
 - **2026-10-26 13:18:32** `[0940]`: feat(simulator): add interactive cyber attack simulator with preset attack vectors [iter #0940]
 - **2026-10-26 15:18:23** `[0941]`: test(backend): add unit tests for token expiration and revocation validation [iter #0941]
@@ -35,3 +34,4 @@
 - **2026-11-03 18:32:19** `[0970]`: feat(incident): add automated SOC triage playbook recommendations [iter #0970]
 - **2026-11-03 18:55:18** `[0971]`: feat(intel): integrate fallback provider for offline IP reputation lookup [iter #0971]
 - **2026-11-04 10:59:01** `[0972]`: perf(cache): implement sliding expiration for IP threat intelligence scores [iter #0972]
+- **2026-11-04 12:04:28** `[0973]`: fix(intel): validate CIDR block masks for private subnet detection [iter #0973]
