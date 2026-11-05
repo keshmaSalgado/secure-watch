@@ -1,6 +1,5 @@
 # SecureWatch Automated Development Log
 
-- **2026-10-26 15:18:23** `[0941]`: test(backend): add unit tests for token expiration and revocation validation [iter #0941]
 - **2026-10-26 17:04:16** `[0942]`: test(e2e): add Playwright test scenario for analyst triage workflow [iter #0942]
 - **2026-10-26 17:29:16** `[0943]`: chore(devops): optimize multi-stage build caching in ASP.NET and Angular Dockerfiles [iter #0943]
 - **2026-10-27 10:48:44** `[0944]`: docs(api): document REST API contracts and Swagger schema models [iter #0944]
@@ -35,3 +34,4 @@
 - **2026-11-04 12:04:28** `[0973]`: fix(intel): validate CIDR block masks for private subnet detection [iter #0973]
 - **2026-11-04 15:22:22** `[0974]`: feat(ai): train Isolation Forest anomaly detector on synthetic normal distributions [iter #0974]
 - **2026-11-04 16:43:47** `[0975]`: feat(copilot): implement prompt context builder with sanitized event summaries [iter #0975]
+- **2026-11-05 09:11:58** `[0976]`: refactor(ai): serialize anomaly features into structured NumPy arrays [iter #0976]
