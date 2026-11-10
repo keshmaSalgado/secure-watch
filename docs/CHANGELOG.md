@@ -1,6 +1,5 @@
 # SecureWatch Automated Development Log
 
-- **2026-10-30 17:10:13** `[0959]`: perf(telemetry): index security event timestamp and severity level columns [iter #0959]
 - **2026-10-30 17:39:27** `[0960]`: refactor(telemetry): decouple ingestion validator from database write pipeline [iter #0960]
 - **2026-10-31 09:51:23** `[0961]`: test(telemetry): add boundary tests for metadata JSON serialization [iter #0961]
 - **2026-10-31 16:25:15** `[0962]`: feat(auth): enforce refresh token family revocation on token replay [iter #0962]
@@ -35,3 +34,4 @@
 - **2026-11-09 19:31:11** `[0991]`: test(backend): add unit tests for token expiration and revocation validation [iter #0991]
 - **2026-11-09 20:14:49** `[0992]`: test(e2e): add Playwright test scenario for analyst triage workflow [iter #0992]
 - **2026-11-10 13:48:35** `[0993]`: chore(devops): optimize multi-stage build caching in ASP.NET and Angular Dockerfiles [iter #0993]
+- **2026-11-10 14:48:36** `[0994]`: docs(api): document REST API contracts and Swagger schema models [iter #0994]
